@@ -1,0 +1,600 @@
+
+body{
+    font-family: 'Hind Guntur';
+}
+.change-language{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #363636;
+    margin-top: 60px;
+}
+.banner1{
+    background-image: url('images/banner1.png');
+    background-size:cover;
+    position: relative;
+    width: max-content;
+    height: 432px;
+}
+.banner-position{
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+}
+.banner-title{
+    font-size: 66px;
+    color: #fff;
+    margin-top: -30px; 
+    text-shadow: 1px 1px 2px #929292;
+}
+.line{
+    border-bottom:1px solid #fff;
+    width: 312px;
+    margin-top: 15px;
+}
+.eficacitate{
+    font-size: 36px;
+    color: #fff;
+    margin-top: 100px;
+    text-shadow: 1px 1px 2px #929292 ;
+}
+.asterisk{
+    font-size: 19px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #929292;
+}
+.title{ 
+    font-size: 40px;
+    text-align: start;
+    color: #444444;  
+}
+.paragraf{
+    font-size: 15px;
+    color: #444444;margin-top: 30px;
+}
+.banner2{
+    background-image: url('images/banner2.png');
+    background-size:cover;
+    width: 1180px;
+    height: 432px;
+}
+.number-zone{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 80px;
+}
+.number{
+    text-align: center;
+    font-size: 40px;
+    background-color: #00A69C;
+    color: #fff;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;  
+    position: relative;
+    top: 30px;
+    right: 25px;
+}
+.text-number{
+    color: #444444;
+    font-size: 25px;
+    padding: 20px 40px; 
+}
+.bg{
+    margin-left: -5px;
+    margin-top: -15px;
+    position: static;
+    background-color: #FAFAFA;
+    width: 475px;
+    height: 153px;
+}
+.c-title{
+    font-size: 40px;
+    text-align: start;
+    color: #444444; 
+    margin-top: 37px;
+}
+.c-paragraf{
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.fibra{ 
+    background-color: #F0E42C;
+    color: #00A69C;
+    border-radius: 10%;
+    width: 84px;
+    height: 84px; 
+    padding: 15px;
+    margin-top: 45px;
+}
+.virusuri{
+    width: 100%;
+    height: 265px;
+    background-color:#FAFAFA;   
+    margin-top: 30px;
+}
+.button2{
+    width: 200px;
+    height: 42px;  
+    background-color: transparent;
+    color:#00A69C;
+    border: 1.5px solid #00A69C;
+    padding: 5px  ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+.proHealth{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.v-title{
+    font-size: 40px ;
+}
+.brosura{
+    background-color: #00A69C ;
+    color: #fff;
+    margin-top: 400px;
+    width: 330px;
+    height: 186px;
+    position: relative;
+    box-shadow: 5px 5px 25px #616060;
+}
+ .btn-close{
+    position: absolute;
+    top: 2%;
+    left: 90%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    width: 12px;
+    height: 12px;
+}
+.brosura .b-text{
+   margin-top: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+.button1{
+    position: absolute;
+    top: 65%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    height: 45px;
+    font-size: 18px;
+}
+.i-title{
+    text-align: center;
+    font-size: 23px;   
+}
+.i-paragraf{
+    text-align: center;
+    font-size: 19px;
+    padding: 10px 1px; 
+    margin-top: -15px;
+}
+.imag{
+    width: 170px;
+    height: 170px;
+}
+
+@media only screen and (max-width: 576px) {
+   
+    .logo{
+        width: 120px;
+        height: 25px;
+    }
+    .menu{
+        width: 30px;
+        height: auto;
+        margin-top: 10px;
+    }
+    .banner1{
+        background-image: url('images/banner1-sm.png');
+        background-size:cover;
+    }
+    .banner-position{
+        position: absolute;
+        bottom: 0;
+        left: 0; 
+    }
+    .banner-title{
+        font-size: 60px;
+        color: #fff;
+        margin-top: -10px; 
+        text-shadow: 1px 1px 2px #929292;
+    }
+    .line{
+        border-bottom:1px solid #fff;
+        width: 312px;
+        margin-top: 15px;
+    }
+    .eficacitate{
+        font-size: 32px;
+        color: #fff;
+        margin-top: 100px;
+        text-shadow: 1px 1px 2px #929292 ;
+    }
+    .asterisk{
+        font-size: 18px;
+    }
+    .not-on-mobile{
+        visibility: hidden;
+        display: none;
+    }
+    .title{
+        font-size: 28px;
+        text-align: start;
+        margin: 20px;
+        margin-top: 20px;
+    }
+    .title br{
+        display: none;
+    }
+    .number{
+        text-align: center;
+        font-size: 30px; 
+        width: 40px;
+        height: 40px;  
+        position: relative;
+        top: 20px;
+        right: 25px;
+    }
+    .number-zone{
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+        gap: 0px;
+    }
+    .text-number{
+        color: #444444;
+        font-size: 18px;
+        padding: 20px 40px; 
+    }
+    .bg{
+        margin-left: -5px;
+        margin-top: -15px;
+        position: static;
+        background-color: #FAFAFA;
+        width: 390px;
+        height: 120px;
+    }
+    .paragraf{
+        font-size: 14px;
+    }
+    .paragraf br{
+        display: none;
+    }
+    .i-title{
+        font-size: 18px;
+        margin-top: -20px;
+    }
+    .i-paragraf{
+        font-size: 15px;
+        margin-top: -30px;
+    }
+    .i-img{
+        width: 90px;
+        height: 95px; 
+    }
+    .c-title{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 5px;    
+    }
+    .c-img{
+        width: 50px;
+        height: 50px;
+    }
+    .c-paragraf{
+        font-size: 15px;
+        text-align: center;
+    }
+    .c-paragraf br{
+        display: none;
+    }
+    .c-title br{
+        display: none;
+    }
+    .fibra{
+        width: 50px;
+        height: 50px;
+        padding: 8px;
+        margin-top: 3%;
+    }
+    .virusuri{
+        width: 100%;
+        height: 320px;
+        background-color:#FAFAFA;   
+    }
+    .banner2{
+        background-image: url('images/banner2-sm.png');
+        background-size:cover;
+    }
+    .proHealth{
+        margin-top: 35px;
+        font-size: 20px;
+        text-shadow: 1px 1px 2px #616060
+    }
+    .proHealth br{
+        display: block;
+    }
+    .green-fiber{
+     margin-top: -30px;
+     width: 70%;
+     margin-left: 0%;
+     margin-right: 30%;
+     margin-bottom: 20px;
+    
+    }
+    .d-v-title{
+        font-size: 25px ;
+        text-align: start;
+        margin-top: 30px;
+    }
+    .d-v-title br{
+        display: block;
+    }
+    .v-title{
+        font-size: 30px;
+    }
+    .v-title br{
+        display: block;
+    }
+    .imag{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    body{
+        padding: 15px;
+    }
+    .logo{
+        width: 200px;
+       height: auto;
+    }
+    .change-language{
+        font-size: 20px;
+        color: #202020;
+        margin-top: 40px;
+    }
+    .menu{
+        width: 40px;
+        height: auto;
+    }
+    .banner1{
+        background-image: url('images/banner1-sm.png');
+        background-size:cover;
+    }
+    .banner-position{
+        position: absolute;
+        bottom: 0;
+        left: 0; 
+    }
+    .banner-title{
+        font-size: 64px;
+        color: #fff;
+        margin-top: -10px; 
+        text-shadow: 1px 1px 2px #929292;
+    }
+    .line{
+        border-bottom:1px solid #fff;
+        width: 312px;
+        margin-top: 15px;
+    }
+    .eficacitate{
+        font-size: 34px;
+        color: #fff;
+        margin-top: 100px;
+        text-shadow: 1px 1px 2px #929292 ;
+    }
+    .asterisk{
+        font-size: 17px;
+    }
+    .title{
+        font-size: 28px;
+        text-align: start;
+        margin: 20px;
+        margin-top: 20px;
+    }
+    p{
+        padding: 15px;
+    }
+    .title br{
+        display: none;
+    }
+    .number-zone{
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(750px, 1fr));
+        gap: 0px;
+    }
+    .text-number{
+        color: #444444;
+        font-size: 20px;
+        padding: 20px 40px; 
+    }
+     .bg{
+        margin-left: -5px;
+        margin-top: -15px;
+        position: static;
+        background-color: #FAFAFA;
+        width: 390px;
+        height: 120px;
+    }
+    .paragraf{
+        font-size: 14px;
+    }
+    .paragraf br{
+        display: none;
+    }
+   .c-title{
+      font-size: 35px;
+   }
+    .c-paragraf{
+        font-size: 15px;
+        text-align: center;
+    }
+    .c-paragraf br{
+        display: none;
+    }
+    .c-title br{
+        display: none;
+        font-size: 38px;
+    }
+    .fibra{
+        margin-top: 70px;
+    }
+    .banner2{
+        background-image: url('images/banner2-sm.png');
+        background-size:cover;
+    }
+    .proHealth{
+        margin-top: 35px;
+        font-size: 25px;
+        text-shadow: 1px 1px 2px #616060
+    }
+    .proHealth br{
+        display: block;
+    }
+    .green-fiber{
+        margin-top: -30px;
+        width: 50%;
+        margin-left: 0%;
+        margin-right: 50%;
+        margin-bottom: 20px;   
+    }
+    .d-v-title{
+        font-size: 30px ;
+        text-align: start;
+        margin-top: 30px;
+    }
+    .d-v-title br{
+        display: block;
+    }
+    .imag{
+        width: 90px;
+        height: 90px;
+    } 
+    .v-title{
+        font-size: 35px ;
+        margin-top: -10px;
+    }
+    .v-title br{
+        display: none;
+    }
+    .virusuri{
+        width: 100%;
+        height: 340px;
+        background-color:#FAFAFA;   
+    }
+    .button2{
+       width: 450px;
+        margin-top: 20px;
+        height: 42px;  
+        background-color: transparent;
+        color:#00A69C;
+        border: 1.5px solid #00A69C;
+        padding: 5px  ;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .brosura{
+        background-color: #00A69C ;
+        color: #fff;
+        margin-top: 30px;
+        width: 280px;
+        height: 186px;
+        position: relative;
+        box-shadow: 5px 5px 15px #616060;
+    }
+    .brosura .b-text{
+        margin-top: 18px;
+        font-size: 20px;
+        text-align: center;
+     }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+    body{
+        padding: 30px;
+    }
+    .change-language{
+        margin-right: 30px;
+        font-size: 18px;
+        color: #363636;
+        margin-top: 60px;
+    }
+    .number-zone{
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 0px;
+    }
+    .fibra{
+        margin-top: 50px;
+    }
+    .proHealth{
+        margin-top: 50px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    
+    .proHealth br{
+        display: block;
+    }
+   
+    .d-v-title{
+        font-size: 30px ;
+        text-align: start;
+        margin-top: 30px;
+    }
+    .d-v-title br{
+        display: block;
+    }
+    .v-title{
+        font-size: 35px ;
+        margin-top: -10px;
+    }
+    .virusuri{
+        width: 100%;
+        height: 360px;
+        background-color:#FAFAFA;   
+    }
+    .button2{
+        margin-top: 20px;
+        height: 42px;  
+        background-color: transparent;
+        color:#00A69C;
+        border: 1.5px solid #00A69C;
+        padding: 5px  ;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .c-title{
+        font-size: 40px; 
+    }
+    .imag{
+        width: 120px;
+        height: 120px;
+        margin: 8px;
+    }
+    .footer{
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+      }
+}
+
+
